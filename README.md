@@ -11,3 +11,4 @@ A web-based dashboard for organizing and tracking interview preparation .
 https://gitaarjoo.github.io/Frontend_interview_preparation_basicdashboard_/
 
 ## GitHub Repository
+gh repo clone gitAarjoo/Frontend_interview_preparation_basicdashboard_
