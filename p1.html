@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Interview Prep Hub</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 Frontend Interview Prep Hub</h1>
+        <p>Master your HTML, CSS, and JavaScript technical rounds.</p>
+    </header>
+
+    <main class="container">
+        <!-- Filter Tabs -->
+        <section class="filter-container">
+            <button class="tab-btn active" data-category="all">All Topics</button>
+            <button class="tab-btn" data-category="html">HTML</button>
+            <button class="tab-btn" data-category="css">CSS</button>
+            <button class="tab-btn" data-category="javascript">JavaScript</button>
+        </section>
+
+        <!-- Flashcards Grid -->
+        <section class="cards-grid" id="flashcards-container">
+            <!-- Cards will be dynamically injected by JavaScript -->
+        </section>
+
+        <!-- Quick Quiz Component -->
+        <section class="quiz-section">
+            <h2>🧠 Quick Knowledge Check</h2>
+            <div class="quiz-card">
+                <p id="quiz-question">Loading question...</p>
+                <div class="quiz-options" id="quiz-options">
+                    <!-- Options injected dynamically -->
+                </div>
+                <div id="quiz-feedback" class="feedback hidden"></div>
+                <button id="next-quiz-btn" class="next-btn hidden">Next Question</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Frontend Prep Hub. Practice makes perfect.</p>
+    </footer>
+
+    <script src="p1.js"></script>
+</body>
+</html>
