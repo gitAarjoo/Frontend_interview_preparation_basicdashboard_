@@ -8,3 +8,6 @@ A web-based dashboard for organizing and tracking interview preparation .
 - JavaScript
 
   ## Live Demo
+https://gitaarjoo.github.io/Frontend_interview_preparation_basicdashboard_/
+
+## GitHub Repository
